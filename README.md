@@ -228,12 +228,13 @@ Conducts comprehensive performance attribution and statistical comparison.
 
 ### Portfolio Performance Comparison
 
-| Metric | Our Model (λ=0.05) | Our Model (λ=10) | Static MVO Benchmark |
-|--------|---------------------|-------------------|---------------------|
-| Annualized Return | 8.67% | 7.29% | ~6.42% |
-| Volatility | 7.43% | 8.67% | ~9.39% |
-| Sharpe Ratio | 1.15 | 0.84 | ~0.68 |
-| Maximum Drawdown | 10.48% | 16.17% | ~15.40% |
+| Metric | Our Model (λ=0.05) | Our Model (λ=10) | MVO (λ=0.05) | MVO (λ=10) |
+|--------|---------------------|-------------------|---------------|-------------|
+| Annualized Return | 8.57% | 8.48% | ~7.29% | ~7.41% |
+| Volatility | 7.43% |7.39% | ~8.67% | ~6.42% |
+| Sharpe Ratio | 1.15 | 1.14 | ~0.84 | ~1.15 |
+| Maximum Drawdown | 10.48% | 10.48% | ~16.17% | ~9.87% |
+
 
 ### Machine Learning Model Validation
 
