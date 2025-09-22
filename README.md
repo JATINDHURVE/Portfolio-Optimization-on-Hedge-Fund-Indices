@@ -38,7 +38,7 @@ The framework demonstrates substantial improvements over static MVO benchmarks a
 ### Data Sources and Scope
 - **Assets**: Four HFRI hedge fund strategy indices (HFRI4FWC, HFRI4ELS, HFRI4EHV, HFRI4ED)
 - **Factors**: Fama-French factors (Market, SMB, HML, MOM) and risk-free rate
-- **Macro Indicators**: VIX, Yield Curve and Credit Spread
+- **Macro Indicators**: VIX, Yield Curve, Credit Spread and PMI
 - **Period**: January 2005 - May 2023 (monthly frequency)
 - **Framework**: Rolling 7-year training windows with quarterly portfolio rebalancing
 
