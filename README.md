@@ -236,15 +236,6 @@ Conducts comprehensive performance attribution and statistical comparison.
 | Maximum Drawdown | 10.48% | 10.48% | ~16.17% | ~9.87% |
 
 
-### Machine Learning Model Validation
-
-| Strategy Index | R² Score | Hit Rate | Breakdown Rate | Model Performance |
-|---------------|----------|----------|----------------|------------------|
-| HFRI4EHV | 68.7% | 85% | 0% | Excellent |
-| HFRI4ELS | 62.9% | 82% | 2.1% | Strong |  
-| HFRI4FWC | 49.4% | 77% | 4.3% | Good |
-| HFRI4EMN | 37.4% | 79% | 1.8% | Moderate |
-
 ### Key Performance Insights
 
 **Risk Management Enhancement:**
@@ -307,15 +298,35 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## References
 
-1. Tyler, D. E. (1987). A distribution-free M-estimator of multivariate scatter. *The Annals of Statistics*, 15(1), 234-251.
+1. Izmailov, A., & Shay, B. (2013). Dramatically improved portfolio optimization results with noise-filtered covariance. *Market Memory Trading, L.L.C.*
 
-2. Marchenko, V. A., & Pastur, L. A. (1967). Distribution of eigenvalues for some sets of random matrices. *Matematicheskii Sbornik*, 114(4), 507-536.
+2. Izmailov, A., & Shay, B. (2013). Portfolio rebalancing with reinvestment based on noise filtered correlation/covariance matrices: The case of NASDAQ 100. *Market Memory Trading, L.L.C.*
 
-3. Ledoit, O., & Wolf, M. (2020). Analytical nonlinear shrinkage of large-dimensional covariance matrices. *The Annals of Statistics*, 48(5), 3043-3065.
+3. Anonymous. (2023). Factor-based portfolio optimization. *Preprint research paper.*
 
-4. Fama, E. F., & French, K. R. (2015). A five-factor asset pricing model. *Journal of Financial Economics*, 116(1), 1-22.
+4. Markowitz, H. (1952). Portfolio selection. *The Journal of Finance*, 7(1), 77-91.
 
-5. Izmailov, A., & Shay, B. (2013). Dramatically improved portfolio optimization results with noise-filtered covariance. *Market Memory Trading Research Papers*.
+5. Sharpe, W. F. (1964). Capital asset prices: A theory of market equilibrium under conditions of risk. *The Journal of Finance*, 19(3), 425-442.
+
+6. University Study Material
+
+7. Dong, X., Yu, Z., Cao, W., Shi, Y., & Ma, Q. (2020). A survey on ensemble learning. *Frontiers of Computer Science*, 14(2), 241-258.
+
+8. Zhang, C., & Ma, Y. (2012). Ensemble machine learning: Methods and applications. Springer.
+
+9. Ganaie, M. A., Hu, M., Malik, A. K., Tanveer, M., & Suganthan, P. N. (2022). Ensemble deep learning: A review. *Engineering Applications of Artificial Intelligence*, 115, 105151.
+
+10. Zhou, Z. H. (2012). Ensemble methods: Foundations and algorithms. CRC Press.
+
+11. Sagi, O., & Rokach, L. (2018). Ensemble learning: A survey. *Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery*, 8(4), e1249.
+
+12. Dietterich, T. G. (2000). Ensemble methods in machine learning. *International Workshop on Multiple Classifier Systems*, 1-15.
+
+13. Polikar, R. (2006). Ensemble based systems in decision making. *IEEE Circuits and Systems Magazine*, 6(3), 21-45.
+
+14. Kuncheva, L. I. (2004). Combining pattern classifiers: Methods and algorithms. John Wiley & Sons.
+
+15. Bühlmann, P., & Yu, B. (2002). Analyzing bagging. *The Annals of Statistics*, 30(4), 927-961.
 
 ---
 
