@@ -280,6 +280,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 15. Bühlmann, P., & Yu, B. (2002). Analyzing bagging. *The Annals of Statistics*, 30(4), 927-961.
 ---
 
-**Contact:** For research inquiries or collaboration opportunities, please open an issue in this repository.
+**Contact:** For research inquiries or collaboration opportunities, please open an issue in this repository.or Contact jatin.dhurve@outlook.com
 
 **Citation:** If you use this work in academic research, please cite the accompanying methodology paper and this implementation.
