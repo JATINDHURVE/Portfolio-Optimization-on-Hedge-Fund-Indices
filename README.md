@@ -18,16 +18,14 @@ This research presents an advanced portfolio optimization framework that signifi
 
 The framework demonstrates substantial improvements over static MVO benchmarks across multiple risk-adjusted performance metrics during the study period from January 2005 to May 2023.
 
-## Key Contributions
-
-### Technical Innovations
+### Novelty
 - **Self-implemented Random Matrix Theory noise filtering** using Marchenko-Pastur eigenvalue bounds
 - **Custom Tyler's M-Estimator implementation** for outlier-robust covariance matrix estimation
 - **Ensemble machine learning architecture** combining Huber Regression, AdaBoost, and ElasticNet models
 - **Dynamic factor-based constraints** optimized through rolling Sharpe ratio maximization
 - **Integrated optimization pipeline** with quarterly rebalancing over 46 overlapping 7-year windows
 
-### Performance Achievements
+### Performance
 - Superior risk-adjusted returns compared to traditional MVO approaches
 - Enhanced portfolio diversification through systematic factor exposure management
 - Robust performance across varying market conditions and volatility regimes
@@ -103,33 +101,6 @@ Utility = w'μ - (λ/2) × w'Σw
 -0.1 ≤ Σwᵢβᵢᵐᵒᵐ ≤ 0.2    (Momentum beta bounds)
 ```
 
-## Project Structure
-
-```
-portfolio-optimization/
-├── notebooks/
-│   ├── beta_calculation.ipynb          # Factor beta computation
-│   ├── beta_range.ipynb               # Dynamic constraint optimization  
-│   ├── expected_returns.ipynb         # Ensemble ML return prediction
-│   ├── rmt_filtered_covariance.ipynb  # RMT noise filtering implementation
-│   ├── port_optimization.ipynb        # Main optimization engine
-│   ├── rolling_backtest.ipynb         # Backtesting framework
-│   ├── static_mvo.ipynb              # Benchmark MVO implementation
-│   └── comparison.ipynb               # Performance comparison analysis
-├── data/
-│   ├── hedge_funds_returns_data.xlsx  # HFRI strategy index returns
-│   ├── factors_returns_data.xlsx      # Fama-French factor data
-│   └── market_signals_indexes.xlsx    # Macroeconomic predictors
-├── all_output_results/
-│   ├── All_Hedge_Fund_Betas/         # Factor loading calculations
-│   ├── ML_validation_outputs/         # Model validation metrics
-│   ├── ML_Ensemble_Models/           # Trained ensemble models
-│   └── performance_metrics/           # Portfolio performance data
-├── requirements.txt
-├── METHODOLOGY.pdf
-└── README.md
-```
-
 ## Installation
 
 ### Prerequisites
@@ -141,14 +112,14 @@ portfolio-optimization/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/portfolio-optimization.git
+git clone https://github.com/JATINDHURVE/Portfolio-Optimization-on-Hedge-Fund-Indices.git
 cd portfolio-optimization
 ```
 
 2. **Create and activate virtual environment:**
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+python -m venv portfolio
+source portfolio/bin/activate  # On Windows: portfolio\Scripts\activate
 ```
 
 3. **Install required dependencies:**
@@ -238,7 +209,8 @@ Conducts comprehensive performance attribution and statistical comparison.
 
 ### Key Performance Insights
 
-**Risk Management Enhancement:**
+**Improved Risk Management:**
+
 - Reduced maximum drawdown through robust covariance estimation
 - Enhanced diversification via systematic factor exposure control
 - Superior risk-adjusted returns across different risk aversion parameters
@@ -248,7 +220,7 @@ Conducts comprehensive performance attribution and statistical comparison.
 - Low breakdown rates indicating robust model stability
 - High directional accuracy supporting practical implementation
 
-**Innovation Impact:**
+**Novelty:**
 - First documented application combining RMT filtering with Tyler's M-Estimator for hedge fund portfolio optimization
 - Demonstrates practical value of advanced statistical techniques in institutional portfolio management
 
@@ -273,13 +245,6 @@ The implementation leverages entirely custom algorithms for the core statistical
 - Temporal stability validation across rolling windows
 - Robust performance metrics with breakdown rate monitoring
 
-### Computational Considerations
-
-- **Memory Efficiency:** Rolling window processing to manage computational complexity
-- **Numerical Stability:** Regularization techniques for matrix operations
-- **Scalability:** Modular design supporting extended asset universes
-- **Reproducibility:** Fixed random seeds and deterministic algorithms
-
 ## Contributing
 
 Contributions are welcome through the following process:
@@ -299,35 +264,20 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## References
 
 1. Izmailov, A., & Shay, B. (2013). Dramatically improved portfolio optimization results with noise-filtered covariance. *Market Memory Trading, L.L.C.*
-
 2. Izmailov, A., & Shay, B. (2013). Portfolio rebalancing with reinvestment based on noise filtered correlation/covariance matrices: The case of NASDAQ 100. *Market Memory Trading, L.L.C.*
-
 3. Anonymous. (2023). Factor-based portfolio optimization. *Preprint research paper.*
-
 4. Markowitz, H. (1952). Portfolio selection. *The Journal of Finance*, 7(1), 77-91.
-
 5. Sharpe, W. F. (1964). Capital asset prices: A theory of market equilibrium under conditions of risk. *The Journal of Finance*, 19(3), 425-442.
-
 6. University Study Material
-
 7. Dong, X., Yu, Z., Cao, W., Shi, Y., & Ma, Q. (2020). A survey on ensemble learning. *Frontiers of Computer Science*, 14(2), 241-258.
-
 8. Zhang, C., & Ma, Y. (2012). Ensemble machine learning: Methods and applications. Springer.
-
 9. Ganaie, M. A., Hu, M., Malik, A. K., Tanveer, M., & Suganthan, P. N. (2022). Ensemble deep learning: A review. *Engineering Applications of Artificial Intelligence*, 115, 105151.
-
 10. Zhou, Z. H. (2012). Ensemble methods: Foundations and algorithms. CRC Press.
-
 11. Sagi, O., & Rokach, L. (2018). Ensemble learning: A survey. *Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery*, 8(4), e1249.
-
 12. Dietterich, T. G. (2000). Ensemble methods in machine learning. *International Workshop on Multiple Classifier Systems*, 1-15.
-
 13. Polikar, R. (2006). Ensemble based systems in decision making. *IEEE Circuits and Systems Magazine*, 6(3), 21-45.
-
 14. Kuncheva, L. I. (2004). Combining pattern classifiers: Methods and algorithms. John Wiley & Sons.
-
 15. Bühlmann, P., & Yu, B. (2002). Analyzing bagging. *The Annals of Statistics*, 30(4), 927-961.
-
 ---
 
 **Contact:** For research inquiries or collaboration opportunities, please open an issue in this repository.
